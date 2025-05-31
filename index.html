@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ইপিক আবহাওয়া ইনস্টিটিউট</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f8ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2e86c1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #2874a6;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #1b4f72;
+    }
+    main {
+      padding: 20px;
+    }
+    .alert {
+      background: #ffcccc;
+      border-left: 6px solid red;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #2e86c1;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ইপিক আবহাওয়া ইনস্টিটিউট</h1>
+    <p>আপনার বিশ্বস্ত আবহাওয়া তথ্যসূত্র</p>
+  </header>
+
+  <nav>
+    <a href="#today">আজকের আবহাওয়া</a>
+    <a href="#forecast">পূর্বাভাস</a>
+    <a href="#alerts">সতর্কতা</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+
+  <main>
+    <section id="today">
+      <h2>🌤️ আজকের আবহাওয়া</h2>
+      <p>ঢাকা: আংশিক মেঘলা, তাপমাত্রা: ৩২°C, আর্দ্রতা: ৭০%</p>
+    </section>
+
+    <section id="forecast">
+      <h2>📅 ৭ দিনের পূর্বাভাস</h2>
+      <ul>
+        <li>শনিবার: বৃষ্টি সম্ভাবনা ৬০%</li>
+        <li>রবিবার: মেঘলা আকাশ</li>
+        <li>সোমবার: হালকা বৃষ্টি</li>
+        <li>মঙ্গলবার: রৌদ্রজ্জ্বল</li>
+        <li>বুধবার: আংশিক মেঘলা</li>
+        <li>বৃহস্পতিবার: মাঝারি বৃষ্টি</li>
+        <li>শুক্রবার: বজ্রবৃষ্টির সম্ভাবনা</li>
+      </ul>
+    </section>
+
+    <section id="alerts">
+      <h2>🚨 জরুরি সতর্কতা</h2>
+      <div class="alert">
+        ⚠️ আজ সন্ধ্যায় বজ্রঝড়ের আশঙ্কা রয়েছে। সবাইকে নিরাপদ স্থানে থাকার অনুরোধ করা হচ্ছে।
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>📞 যোগাযোগ</h2>
+      <p>ইমেইল: epicweatherbd@gmail.com</p>
+      <p>ফেসবুক: <a href="https://facebook.com/epicweatherinstitute" target="_blank">facebook.com/epicweatherinstitute</a></p>
+      <p>মোবাইল: ০১৭xxxxxxxx</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; ২০২৫ ইপিক আবহাওয়া ইনস্টিটিউট | সর্বস্বত্ব সংরক্ষিত
+  </footer>
+</body>
+</html>
